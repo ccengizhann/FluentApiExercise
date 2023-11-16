@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FluentAPI.Domain.Enums
+namespace LiveLecture.Domain.Enums
 {
     public enum Gender
     {

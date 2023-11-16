@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FluentAPI.Domain.Entities
+namespace LiveLecture.Domain.Entities
 {
     public abstract class EntityBase<TKey> : IEntityBase<TKey>, ICreatedByEntity, IModifiedByEntity, IDeletedByEntity
     {
@@ -23,3 +23,4 @@ namespace FluentAPI.Domain.Entities
             throw new NotImplementedException();
         }
     }
+}

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FluentAPI.Domain.Entities
+namespace LiveLecture.Domain.Entities
 {
     public interface ICreatedByEntity
     {
