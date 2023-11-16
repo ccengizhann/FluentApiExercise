@@ -1,11 +1,12 @@
-﻿using System;
+﻿using LiveLecture.Domain.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FluentAPI.Domain.Entities
+namespace LiveLecture.Domain.Entities
 {
     public class Student : EntityBase<Guid>
     {
