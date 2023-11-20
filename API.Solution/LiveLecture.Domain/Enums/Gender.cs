@@ -8,7 +8,10 @@ namespace LiveLecture.Domain.Enums
 {
     public enum Gender
     {
+
         Female = 0,
         Male = 1,
+        NonBianary=2,
+        Unknown=3,
     }
 }

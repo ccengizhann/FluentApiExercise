@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LiveLecture.Domain.Entities
 {
-    public interface IEntityBase<TKey> : IEquatable<TKey>
+    public interface IEntityBase<TKey> 
     {
         public TKey Id { get; set; }
     }
