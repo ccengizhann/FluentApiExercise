@@ -1,4 +1,5 @@
 ﻿using LiveLecture.Domain.Entities;
+using LiveLecture.Domain.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,11 @@ namespace LiveLecture.Persistence.Contexts
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            modelBuilder.Ignore<User>();
+            modelBuilder.Ignore<Role>();
+            modelBuilder.Ignore<UserSetting>();
+
 
             base.OnModelCreating(modelBuilder);
         }

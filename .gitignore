@@ -349,3 +349,7 @@ healthchecksdb
 MigrationBackup/
 
 API.Solution/LiveLecture.API/appsettings.json
+
+API.Solution/LiveLecture.IdentityMVC/appsettings.json
+
+API.Solution/LiveLecture.WebApi/appsettings.json
